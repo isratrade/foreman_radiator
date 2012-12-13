@@ -10,7 +10,7 @@ This is a rails engine that allows users to view from within Foreman (https://gi
 
 gem 'foreman_radiator', :git => "https://github.com/isratrade/foreman_radiator.git"
 
-2) Run "bundle"
+2) Run "bundle" # As Foreman user
 
 3) Go to path "http://yourforeman/radiator"
 
