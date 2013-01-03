@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "foreman_radiator"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Joseph Mitchell Magen"]
-  s.date = "2012-12-13"
+  s.date = "2013-01-03"
   s.description = "Plugin engine for Foreman to view radiator dashboard"
   s.email = "jmagen@redhat.com"
   s.extra_rdoc_files = [
@@ -29,8 +29,9 @@ Gem::Specification.new do |s|
     "app/views/foreman_radiator/layouts/application_radiator.html.erb",
     "config/routes.rb",
     "foreman_radiator.gemspec",
-    "lib/engine.rb",
-    "lib/foreman_radiator.rb"
+    "lib/foreman_radiator.rb",
+    "lib/foreman_radiator/engine.rb",
+    "screenshot_radiator.jpg"
   ]
   s.homepage = "http://github.com/isratrade/foreman_radiator"
   s.licenses = ["MIT"]

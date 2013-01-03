@@ -1,3 +1,3 @@
 module ForemanRadiator
-  require 'engine' if defined?(Rails) && Rails::VERSION::MAJOR == 3
+  require 'foreman_radiator/engine' if defined?(Rails) && Rails::VERSION::MAJOR == 3
 end
