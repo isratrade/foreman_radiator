@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
     "screenshot_radiator.jpg"
   ]
   s.homepage = "http://github.com/isratrade/foreman_radiator"
-  s.licenses = ["MIT"]
+  s.licenses = ["GPL-3"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"
   s.summary = "Plugin engine for Foreman to view radiator dashboard"
